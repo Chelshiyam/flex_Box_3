@@ -1,0 +1,67 @@
+#firstDiv{
+    width: 50%;
+    height: 300px;
+    background-color: blue;
+    font-size: 2rem;
+}
+#secondDiv{
+    min-width: 450px;
+    height: 200px;
+    background-color: green;
+    font-size: 1.5rem;
+}
+#thirdDiv{
+    max-width: 1000px;
+    max-height: 1200px;
+    background-color: darkmagenta;
+}
+@media only screen and (min-width:400px) and (max-width:576px){
+    body{
+        background-color: blueviolet;
+    }
+    h1{
+        color: aquamarine;
+    }
+}
+@media only screen and (min-width:576px) and (max-width:768px){
+    body{
+        background-color: darkblue;
+    }
+    h1{
+        color: rgb(3, 48, 33);
+        font-size: 2rem;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:992px){
+    body{
+        background-color: red;
+    }
+    h1{
+        color: chartreuse;
+        font-size: 1rem;
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1200px){
+    body{
+        background-color: rgb(187, 130, 239);
+    }
+    h1{
+        color: darkorange;
+    }
+}
+@media only screen and (min-width:1200px) and (max-width:1400px){
+    body{
+        background-color: rgb(43, 177, 226);
+    }
+    h1{
+        color: black;
+    }
+}
+@media only screen and (min-width:1400px){
+    body{
+        background-color: dimgray;
+    }
+    h1{
+        color: aquamarine;
+    }
+}
